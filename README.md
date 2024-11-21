@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# Desarrollador FullStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre mí
+Soy un apasionado desarrollador FullStack con experiencia en la creación de aplicaciones web robustas y escalables. Mi enfoque abarca tanto el desarrollo frontend como el backend, lo que me permite ofrecer soluciones integrales y eficientes.
 
-Currently, two official plugins are available:
+## Habilidades Técnicas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
+- React.js
+- TypeScript
+- HTML5 & CSS3
+- Tailwind CSS
+- Redux
+- Responsive Design
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
+- RESTful APIs
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Bases de Datos
+- PostgreSQL
+- MongoDB
+- MySQL
 
-- Configure the top-level `parserOptions` property like this:
+### DevOps & Herramientas
+- Docker
+- Git & GitHub
+- CI/CD (Jenkins, GitHub Actions)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Enfoque de Desarrollo
+Me especializo en la construcción de aplicaciones web modernas y de alto rendimiento. Mi experiencia en el stack MERN (MongoDB, Express.js, React, Node.js) me permite desarrollar soluciones end-to-end eficientes. Estoy comprometido con las mejores prácticas de desarrollo, incluyendo:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Arquitectura limpia y modular
+- Pruebas unitarias y de integración
+- Optimización de rendimiento
+- Seguridad de aplicaciones web
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Proyectos Destacados
+https://miami-getaway.onrender.com
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contacto
+- GitHub: https://github.com/IgnacioAroza
+- LinkedIn: https://www.linkedin.com/in/ignacio-aroza-0b005328a
+- Email: ignacioaroza.ia@gmail.com
+
+Siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer como desarrollador. ¡No dudes en contactarme para colaboraciones o proyectos interesantes!
