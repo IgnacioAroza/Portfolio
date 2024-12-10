@@ -14,6 +14,21 @@ const projects: Project[] = [
     liveUrl: "https://miami-getaway.onrender.com"
   },
   {
+    title: "URL Shortener Front-End",
+    description: "Front-End para un acortador de URLs.",
+    technologies: ["React", "TypeScript", "Git"],
+    imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1733870948/utils/UrlShoten.png",
+    githubUrl: "https://github.com/IgnacioAroza/url-front.git",
+    liveUrl: "https://url-shortener-hzvf.onrender.com"
+  },
+  {
+    title: "URL Shortener Back-End",
+    description: "API para el acortador de URLs.",
+    technologies: ["TypeScript", "Node.js", "Docker", "MongoDB", "Git"],
+    imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1733871200/utils/UrlBack.png",
+    githubUrl: "https://github.com/IgnacioAroza/url-shortened.git",
+  },
+  {
     title: "Buy Sell Crypto",
     description: "Pagina de compra y venta de Criptomonedas desarrollado para la facultad.",
     technologies: ["JavaScript", "Vue.js", "Git"],
