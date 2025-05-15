@@ -7,11 +7,18 @@ import type { Project } from '../../types';
 const projects: Project[] = [
   {
     title: "Rental Miami",
-    description: "Full-stack landing page de alquiler de servicios en Miami, con admin dashboard.",
-    technologies: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL", "Git"],
+    description: "Aplicación web desarrollada con React y Vite, que utiliza Redux para la gestión de estado y Material UI para la interfaz de usuario. El proyecto implementa hooks personalizados y una arquitectura modular para la administración de reservas, pagos, apartamentos, usuarios y reportes. Además, permite la descarga y envío por email de reportes y resúmenes en PDF, así como la administración de usuarios y paneles para administradores.",
+    technologies: ["React", "JavaScript", "Redux", "Axios", "Material UI", "Git"],
     imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1732068828/utils/MiamiRental.jpg",
     githubUrl: "https://github.com/IgnacioAroza/MiamiGetAwayFront.git",
-    liveUrl: "https://miami-getaway.onrender.com"
+    liveUrl: "https://miami-getaway.com"
+  },
+  {
+    title: "Rental Miami API",
+    description: "Backend API en Node.js, Express y TypeScript para una plataforma de alquiler de apartamentos en Miami. Permite la gestión de usuarios, apartamentos, reservas y pagos, con autenticación JWT, base de datos PostgreSQL y almacenamiento de imágenes en Cloudinary. Incluye pruebas automatizadas y manejo robusto de errores. Tambien incluye un sistema de reportes en PDF y un panel de administración para gestionar usuarios y apartamentos. Agrega un entorno de pruebas con Docker.",
+    technologies: ["TypeScript", "Node.js", "Express", "Vitest", "PostgreSQL", "Docker", "Git"],
+    imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1747319623/utils/rentalAPI.jpg",
+    githubUrl: "https://github.com/IgnacioAroza/MiamiGetAwayBack.git",
   },
   {
     title: "URL Shortener Front-End",
