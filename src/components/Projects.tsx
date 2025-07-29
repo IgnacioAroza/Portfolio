@@ -7,7 +7,7 @@ import type { Project } from '../../types';
 const projects: Project[] = [
   {
     title: "Configurador Coliseo",
-    description: "Aplicación de escritorio desarrollada con Electron y JavaScript para la gestión y configuración de parámetros de un sistema CRM empresarial. La aplicación permite configurar rutas de archivos, filtros de datos y parámetros de exportación que son guardados en formato XML para su posterior lectura por el sistema CRM principal.",
+    description: "Aplicación de escritorio desarrollada con Electron y JavaScript para la gestión y configuración de parámetros de un sistema CRM empresarial. La aplicación permite configurar rutas de archivos, filtros de datos y parámetros de exportación que son guardados en formato XML para su posterior lectura por el sistema CRM principal. La aplicación se empaqueta como ejecutable portable para Windows, facilitando su implementación en entornos empresariales sin necesidad de instalación compleja. Esta aplicación resuelve un problema real de configuración empresarial, proporcionando una interfaz gráfica amigable para un sistema CRM que anteriormente requería edición manual de archivos XML. Mejora significativamente la experiencia del usuario y reduce errores de configuración.",
     technologies: ["HTML5", "CSS", "JavaScript", "Node.js", "Electron", "Git"],
     imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1732068828/utils/MiamiRental.jpg",
     githubUrl: "https://github.com/IgnacioAroza/config_app.git",
