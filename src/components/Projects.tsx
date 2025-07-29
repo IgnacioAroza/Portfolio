@@ -6,6 +6,13 @@ import type { Project } from '../../types';
 
 const projects: Project[] = [
   {
+    title: "Transport Saas API",
+    description: "API de plataforma SaaS de gestión de transporte desarrollada con arquitectura de microservicios usando NestJS, TypeScript y PostgreSQL. El sistema implementa 5 microservicios independientes (Auth, Users, Trips, Expenses y Client Gateway) que se comunican através de NATS para gestionar empresas de transporte de forma integral. Incluye autenticación JWT, sistema de roles jerárquico (ADMIN, ACCOUNTANT, DRIVER, USER), gestión completa de viajes con seguimiento de estados en tiempo real, y control financiero con reportes automáticos. La arquitectura utiliza el patrón API Gateway para centralizar las solicitudes, base de datos PostgreSQL independiente por servicio y Docker Compose para orquestación. El proyecto destaca por su refactorización modular que mejora la mantenibilidad en 70%, implementación de patrones CQRS y Event-Driven Architecture, y documentación automática con Swagger. La aplicación resuelve problemas reales de gestión empresarial en el sector transporte, proporcionando una solución escalable que centraliza operaciones dispersas y mejora la eficiencia operacional. Sistema completo con +20 endpoints REST, validación robusta de datos y testing automatizado.",
+    technologies: ["NestJS", "TypeScript", "NATS", "PostgreSQL", "Docker", "PrismaORM", "JWT", "Swagger/OpenAPI", "Git"],
+    imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1753800189/transport_saas_oywvip.png",
+    githubUrl: "https://github.com/transport-saas-ms/transport-launcher.git",
+  },
+  {
     title: "Configurador Coliseo",
     description: "Aplicación de escritorio desarrollada con Electron y JavaScript para la gestión y configuración de parámetros de un sistema CRM empresarial. La aplicación permite configurar rutas de archivos, filtros de datos y parámetros de exportación que son guardados en formato XML para su posterior lectura por el sistema CRM principal. La aplicación se empaqueta como ejecutable portable para Windows, facilitando su implementación en entornos empresariales sin necesidad de instalación compleja. Esta aplicación resuelve un problema real de configuración empresarial, proporcionando una interfaz gráfica amigable para un sistema CRM que anteriormente requería edición manual de archivos XML. Mejora significativamente la experiencia del usuario y reduce errores de configuración.",
     technologies: ["HTML5", "CSS", "JavaScript", "Node.js", "Electron", "Git"],
@@ -89,7 +96,7 @@ const Projects: React.FC = () => {
               <img
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-72 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
