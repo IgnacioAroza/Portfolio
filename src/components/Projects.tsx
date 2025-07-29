@@ -6,6 +6,13 @@ import type { Project } from '../../types';
 
 const projects: Project[] = [
   {
+    title: "Configurador Coliseo",
+    description: "Aplicación de escritorio desarrollada con Electron y JavaScript para la gestión y configuración de parámetros de un sistema CRM empresarial. La aplicación permite configurar rutas de archivos, filtros de datos y parámetros de exportación que son guardados en formato XML para su posterior lectura por el sistema CRM principal.",
+    technologies: ["HTML5", "CSS", "JavaScript", "Node.js", "Electron", "Git"],
+    imageUrl: "https://res.cloudinary.com/dcxa0ozit/image/upload/v1732068828/utils/MiamiRental.jpg",
+    githubUrl: "https://github.com/IgnacioAroza/config_app.git",
+  },
+  {
     title: "Rental Miami",
     description: "Aplicación web desarrollada con React y Vite, que utiliza Redux para la gestión de estado y Material UI para la interfaz de usuario. El proyecto implementa hooks personalizados y una arquitectura modular para la administración de reservas, pagos, apartamentos, usuarios y reportes. Además, permite la descarga y envío por email de reportes y resúmenes en PDF, así como la administración de usuarios y paneles para administradores.",
     technologies: ["React", "JavaScript", "Redux", "Axios", "Material UI", "Git"],
